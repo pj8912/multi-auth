@@ -1,0 +1,20 @@
+{
+    "name": "jp/multi-auth",
+    "description": "Implement Multiple Login/Signup methods in PHP",
+    "type": "library",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "pj8912",
+            "email": "jpintofun2b@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jp\\MultiAuth\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
